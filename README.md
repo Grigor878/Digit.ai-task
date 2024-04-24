@@ -6,3 +6,14 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Nedded commands
+
+npm i       - for installing node_modules
+npm run dev - for running project in port http://localhost:5173/ 
+
+# Used dependencies
+
+Development     - vite
+Styling         - sass (moduel)
+State Managment - redux,toolkit,persit
