@@ -1,0 +1,44 @@
+$white: #ffffff;//
+$black:  #000000;//
+$blue: #4764FF;//
+$border: #DEDEDE;//
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flexColCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@mixin transition {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+@mixin hoverEffect {
+  @include transition;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}

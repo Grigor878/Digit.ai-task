@@ -1,0 +1,11 @@
+@import "../../variables";
+
+.result {
+  @include flexCol;
+  gap: 100px;
+
+  img{
+    width: fit-content;
+    height: fit-content;
+  }
+}

@@ -1,0 +1,42 @@
+@import "../../variables";
+
+.select {
+  cursor: pointer;
+  width: 454px;
+  border: 1px solid $border;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.radio {
+  input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 0;
+    height: 0;
+    border: none;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  img {
+    width: 330px;
+    height: 261px;
+  }
+}
+
+.btn {
+  width: fit-content;
+  background: $white;
+  color: $blue;
+  border: 1px solid $blue;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  padding: 14px 24px;
+}

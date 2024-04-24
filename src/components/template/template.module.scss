@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.template {
+  @include flexCol;
+  gap: 20px;
+  padding: 55px 0 105px 0;
+
+  h2 {
+    color: $black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+  }
+
+  &_radios{
+    @include flex;
+    gap: 20px;
+  }
+}
